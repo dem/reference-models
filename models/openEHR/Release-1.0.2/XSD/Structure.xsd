@@ -16,6 +16,7 @@
 			<xs:element name="feeder_audit" type="FEEDER_AUDIT" minOccurs="0"/>
 		</xs:sequence>
 		<xs:attribute name="archetype_node_id" type="archetypeNodeId" use="required"/>
+		<xs:attribute name="ext_archetype_path"/>
 	</xs:complexType>
 	<xs:complexType name="ARCHETYPED">
 		<xs:sequence>
