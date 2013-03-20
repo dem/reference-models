@@ -4,7 +4,7 @@
 <xs:schema xmlns="http://schemas.openehr.org/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	targetNamespace="http://schemas.openehr.org/v1" elementFormDefault="qualified" version="1.0.2"
 	id="Resource.xsd">
-	<xs:include schemaLocation="basetypes.xsd"/>
+	<xs:include schemaLocation="BaseTypes.xsd"/>
 	<xs:complexType name="AUTHORED_RESOURCE" abstract="true">
 		<xs:sequence>
 			<xs:element name="original_language" type="CODE_PHRASE"/>
